@@ -1,8 +1,8 @@
 import socket
 
 
-open_port_file = open('Open ports.csv', 'w')
-closed_port_file = open('Closed ports.csv', 'w')
+open_port_file = open('Open ports.txt', 'w')
+closed_port_file = open('Closed ports.txt', 'w')
 
 
 def scan_port(ipaddress, port):
